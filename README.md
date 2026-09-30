@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gindexOfGreaterThan from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-greater-than@esm/index.mjs';
+import gindexOfGreaterThan from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-greater-than@v0.0.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-greater-than@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-greater-than@v0.0.0-esm/index.mjs';
 ```
 
 #### gindexOfGreaterThan( N, searchElement, x, strideX )
@@ -170,7 +170,7 @@ var idx = gindexOfGreaterThan.ndarray( 3, 0.0, x, 1, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import gindexOfGreaterThan from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-greater-than@esm/index.mjs';
+import gindexOfGreaterThan from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-greater-than@v0.0.0-esm/index.mjs';
 
 var x = discreteUniform( 10, 0, 3, {
     'dtype': 'generic'
